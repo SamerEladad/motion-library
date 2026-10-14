@@ -1,0 +1,18 @@
+{
+  "name": "samerflows",
+  "description": "Free tools from samerflows for using AI to save time, make money and create digital products.",
+  "owner": {
+    "name": "samerflows",
+    "url": "https://samerflows.com"
+  },
+  "plugins": [
+    {
+      "name": "motion-library",
+      "source": "./",
+      "description": "50 copy-ready motion graphics in a clean dashboard. Pick one, copy the prompt, paste it into Claude.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["motion-graphics", "animation", "react", "video"]
+    }
+  ]
+}

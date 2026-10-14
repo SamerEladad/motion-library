@@ -1,0 +1,13 @@
+{
+  "name": "motion-library",
+  "version": "1.0.0",
+  "description": "50 copy-ready motion graphics in a clean dashboard. Preview each one, click Copy prompt, paste it into Claude, and get the exact animation in your project.",
+  "author": {
+    "name": "samerflows",
+    "url": "https://samerflows.com"
+  },
+  "homepage": "https://samerflows.com",
+  "repository": "https://github.com/SamerEladad/motion-library",
+  "license": "MIT",
+  "keywords": ["motion-graphics", "animation", "motion", "react", "tailwind", "video", "ui", "dashboard"]
+}

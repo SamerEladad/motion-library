@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@source "../../skills/motion-library/graphics";
+
+/* @samerflows design system — tokens */
+@theme {
+  --color-canvas: #0a0a0c;
+  --color-card: #131317;
+  --color-line: rgba(255, 255, 255, 0.1);
+  --color-dash: rgba(255, 255, 255, 0.2);
+  --color-ruby: #b8003c;
+  --color-ruby-lit: #e0245e;
+  --color-ruby-shadow: #5a0a24;
+  --color-amber: #ff6b2c;
+  --color-gold: #f4e79d;
+  --color-stage-filter: #f2c94c;
+  --color-stage-process: #9b7bff;
+  --color-stage-output: #3ddc97;
+  --color-dot: #2c2c34;
+  --color-muted: #8e8e93;
+  --color-dim: #545458;
+
+  --font-display: "Clash Grotesk", "Space Grotesk", sans-serif;
+  --font-serif: "Instrument Serif", "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", "Geist Mono", ui-monospace, monospace;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --radius-card: 16px;
+  --shadow-glow-ruby: 0 0 28px rgba(184, 0, 60, 0.75);
+  --shadow-lift: 0 24px 48px rgba(0, 0, 0, 0.6);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  background: var(--color-canvas);
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: #fff;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 4% film grain over the whole canvas, as the design system asks */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection {
+  background: var(--color-ruby);
+  color: #fff;
+}

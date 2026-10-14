@@ -1,0 +1,716 @@
+[
+  {
+    "id": "kinetic-text-reveal",
+    "title": "Kinetic Text Reveal",
+    "category": "Text",
+    "tags": [
+      "typography",
+      "hook",
+      "title",
+      "reel"
+    ],
+    "description": "Words rise out of masks one by one, then a blue highlight wipes in behind the key word. Great for hooks, titles and intros.",
+    "duration": "4.2s loop"
+  },
+  {
+    "id": "stat-count-up",
+    "title": "Stat Count-Up",
+    "category": "Data",
+    "tags": [
+      "number",
+      "kpi",
+      "metric",
+      "counter"
+    ],
+    "description": "A card pops in, the number counts up, a growth badge springs in and a sparkline draws itself. Works for any metric.",
+    "duration": "4.6s loop"
+  },
+  {
+    "id": "bar-chart-growth",
+    "title": "Bar Chart Growth",
+    "category": "Data",
+    "tags": [
+      "chart",
+      "growth",
+      "bars",
+      "revenue"
+    ],
+    "description": "Bars spring up in a stagger, the final bar turns blue and a tooltip pops. Shows growth at a glance.",
+    "duration": "4.4s loop"
+  },
+  {
+    "id": "automation-pipeline",
+    "title": "Automation Pipeline",
+    "category": "Flow",
+    "tags": [
+      "workflow",
+      "n8n",
+      "automation",
+      "nodes"
+    ],
+    "description": "Four steps activate in order while a progress line fills each connector and a check pops. Explains any workflow or process.",
+    "duration": "5s loop"
+  },
+  {
+    "id": "prompt-typewriter",
+    "title": "Prompt Typewriter",
+    "category": "AI",
+    "tags": [
+      "prompt",
+      "chat",
+      "typing",
+      "response"
+    ],
+    "description": "A prompt types itself into an input with a blinking cursor, then the reply card slides in with a staggered list.",
+    "duration": "7s loop"
+  },
+  {
+    "id": "macos-folder-open",
+    "title": "macOS Folder Open",
+    "category": "Interface",
+    "tags": [
+      "mac",
+      "finder",
+      "window",
+      "cursor",
+      "click",
+      "folder",
+      "files"
+    ],
+    "description": "A cursor glides to a folder and clicks it, then a macOS-style window pops open and lists the files one by one.",
+    "duration": "7.5s loop"
+  },
+  {
+    "id": "camera-pan-zoom",
+    "title": "Camera Pan & Zoom",
+    "category": "Camera",
+    "tags": [
+      "pan",
+      "zoom",
+      "cinematic",
+      "push in",
+      "pull out",
+      "camera"
+    ],
+    "description": "A virtual camera zooms in on one card, pans across to the next, drops down to a third, then pulls back out to the wide shot.",
+    "duration": "8s loop"
+  },
+  {
+    "id": "icon-list-cascade",
+    "title": "Icon List Cascade",
+    "category": "Lists",
+    "tags": [
+      "list",
+      "icons",
+      "features",
+      "checklist",
+      "steps"
+    ],
+    "description": "Rows slide in one by one, each icon spins into place, then a check pops on every row. For features, steps or any list.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "lower-third",
+    "title": "Lower Third",
+    "category": "Brand",
+    "tags": [
+      "broadcast",
+      "name",
+      "title",
+      "video",
+      "caption"
+    ],
+    "description": "A broadcast-style name tag wipes in over video, holds, then slides away. Perfect for interviews and talking-head videos.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "logo-reveal",
+    "title": "Logo Reveal",
+    "category": "Brand",
+    "tags": [
+      "logo",
+      "intro",
+      "brand",
+      "wordmark",
+      "sting"
+    ],
+    "description": "The logo mark spins and springs in, then the wordmark unrolls beside it with a tagline fading up.",
+    "duration": "5s loop"
+  },
+  {
+    "id": "word-roll",
+    "title": "Word Roll",
+    "category": "Text",
+    "tags": [
+      "slot",
+      "rotate",
+      "words",
+      "headline",
+      "tagline"
+    ],
+    "description": "One word in a pill rolls up and out as the next rolls in. Great for taglines that speak to different audiences.",
+    "duration": "1.3s per word"
+  },
+  {
+    "id": "phone-tap",
+    "title": "Phone Tap",
+    "category": "Interface",
+    "tags": [
+      "mobile",
+      "iphone",
+      "tap",
+      "button",
+      "payment",
+      "app"
+    ],
+    "description": "A finger taps a button on a phone, the button presses and the screen swaps to a success state with a drawn check.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "notification-stack",
+    "title": "Notification Stack",
+    "category": "Interface",
+    "tags": [
+      "alerts",
+      "push",
+      "messages",
+      "banners",
+      "mobile"
+    ],
+    "description": "Notifications drop in from the top one at a time and push the older ones down the stack.",
+    "duration": "6.5s loop"
+  },
+  {
+    "id": "drag-drop-upload",
+    "title": "Drag & Drop Upload",
+    "category": "Interface",
+    "tags": [
+      "upload",
+      "file",
+      "drag",
+      "drop",
+      "cursor",
+      "progress"
+    ],
+    "description": "A cursor grabs a file, drags it onto a drop zone, then a progress bar fills and a check pops.",
+    "duration": "8s loop"
+  },
+  {
+    "id": "settings-toggles",
+    "title": "Settings Toggles",
+    "category": "Interface",
+    "tags": [
+      "switch",
+      "settings",
+      "cursor",
+      "click",
+      "on off"
+    ],
+    "description": "A cursor flips three switches one after another and each knob springs across with the track turning blue.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "command-palette",
+    "title": "Command Palette",
+    "category": "Interface",
+    "tags": [
+      "search",
+      "spotlight",
+      "cmd k",
+      "type",
+      "shortcuts"
+    ],
+    "description": "A search overlay opens, a query types itself and matching results cascade in with the first one selected.",
+    "duration": "7s loop"
+  },
+  {
+    "id": "chat-conversation",
+    "title": "Chat Conversation",
+    "category": "AI",
+    "tags": [
+      "messages",
+      "chat",
+      "typing",
+      "dm",
+      "support",
+      "bot"
+    ],
+    "description": "Bubbles pop in, a typing indicator bounces, then the reply lands. Works for chats, support and bots.",
+    "duration": "9s loop"
+  },
+  {
+    "id": "donut-chart",
+    "title": "Donut Chart",
+    "category": "Data",
+    "tags": [
+      "pie",
+      "share",
+      "breakdown",
+      "segments",
+      "legend"
+    ],
+    "description": "Three segments sweep around the ring in order while the total counts up and the legend slides in.",
+    "duration": "5.5s loop"
+  },
+  {
+    "id": "leaderboard-race",
+    "title": "Leaderboard Race",
+    "category": "Data",
+    "tags": [
+      "ranking",
+      "race",
+      "sort",
+      "scores",
+      "top"
+    ],
+    "description": "Scores update and the rows re-sort with a smooth reorder while the bars resize. Shows who is winning.",
+    "duration": "continuous"
+  },
+  {
+    "id": "map-route",
+    "title": "Map Route",
+    "category": "Maps",
+    "tags": [
+      "directions",
+      "navigation",
+      "location",
+      "pin",
+      "travel",
+      "eta"
+    ],
+    "description": "A route draws along the roads from a start dot to a destination pin that drops in, with an ETA chip.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "before-after-slider",
+    "title": "Before / After Slider",
+    "category": "Camera",
+    "tags": [
+      "compare",
+      "reveal",
+      "wipe",
+      "transformation",
+      "edit"
+    ],
+    "description": "A divider sweeps back and forth, revealing the colourful after over a faded before. Ideal for transformations.",
+    "duration": "continuous"
+  },
+  {
+    "id": "card-flip-3d",
+    "title": "3D Card Flip",
+    "category": "3D",
+    "tags": [
+      "flip",
+      "perspective",
+      "card",
+      "rotate",
+      "depth"
+    ],
+    "description": "A card tilts, flips around in 3D to show its back, holds, then flips home.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "calendar-schedule",
+    "title": "Calendar Schedule",
+    "category": "Lists",
+    "tags": [
+      "week",
+      "planner",
+      "events",
+      "schedule",
+      "time"
+    ],
+    "description": "Events drop onto a weekly grid one by one with a bounce, then the last one is confirmed with a check.",
+    "duration": "6.5s loop"
+  },
+  {
+    "id": "countdown-timer",
+    "title": "Countdown Timer",
+    "category": "Moments",
+    "tags": [
+      "3 2 1",
+      "timer",
+      "launch",
+      "start",
+      "ring"
+    ],
+    "description": "Three, two, one, Go! Each number punches in while a ring drains, then the ring flashes green.",
+    "duration": "4s loop"
+  },
+  {
+    "id": "success-burst",
+    "title": "Success Burst",
+    "category": "Moments",
+    "tags": [
+      "celebration",
+      "confetti",
+      "done",
+      "complete",
+      "order"
+    ],
+    "description": "A check badge springs in, confetti bursts outward and falls, and the message fades up. Marks any win.",
+    "duration": "5s loop"
+  },
+  {
+    "id": "caption-highlight",
+    "title": "Caption Highlight",
+    "category": "Video",
+    "tags": [
+      "captions",
+      "subtitles",
+      "reels",
+      "tiktok",
+      "talking head",
+      "words"
+    ],
+    "description": "Word-by-word captions pop in over a speaker while a yellow highlight follows the spoken word. Shown in a vertical 9:16 frame.",
+    "duration": "looping"
+  },
+  {
+    "id": "punch-zoom",
+    "title": "Punch Zoom",
+    "category": "Video",
+    "tags": [
+      "zoom",
+      "punch in",
+      "cut",
+      "beat",
+      "talking head",
+      "emphasis"
+    ],
+    "description": "Hard punch-ins on the speaker at each beat with a white flash on every cut and a zoom badge that ticks up.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "number-takeover",
+    "title": "Number Takeover",
+    "category": "Video",
+    "tags": [
+      "stat",
+      "big number",
+      "counter",
+      "full screen",
+      "takeover"
+    ],
+    "description": "A black panel slides up over the speaker, a big number counts up, then the panel exits to reveal them again.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "color-block-title",
+    "title": "Color Block Title",
+    "category": "Video",
+    "tags": [
+      "chapter",
+      "section",
+      "title card",
+      "step",
+      "wipe"
+    ],
+    "description": "A bold blue panel wipes across the speaker, the title words rise in, then it wipes away. Marks a new step or chapter.",
+    "duration": "5s loop"
+  },
+  {
+    "id": "pip-card",
+    "title": "Picture in Picture",
+    "category": "Video",
+    "tags": [
+      "pip",
+      "shrink",
+      "card",
+      "explainer",
+      "chips"
+    ],
+    "description": "The full-screen speaker shrinks into a rounded card while a title drops in above and chips pop in below.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "price-tag-swing",
+    "title": "Price Tag Swing",
+    "category": "Video",
+    "tags": [
+      "price",
+      "sale",
+      "offer",
+      "deal",
+      "pendulum",
+      "ecommerce"
+    ],
+    "description": "A tag swings in on its string like a pendulum while the price counts down to the deal. Great for offers.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "perspective-tunnel",
+    "title": "Perspective Tunnel",
+    "category": "3D",
+    "tags": [
+      "depth",
+      "tunnel",
+      "frames",
+      "speed",
+      "intro",
+      "zoom"
+    ],
+    "description": "Nested frames rush outward from the centre to fake depth while a speaker card floats inside.",
+    "duration": "continuous"
+  },
+  {
+    "id": "rack-focus",
+    "title": "Rack Focus",
+    "category": "Camera",
+    "tags": [
+      "blur",
+      "focus",
+      "depth of field",
+      "cinematic",
+      "headline"
+    ],
+    "description": "The speaker blurs out as a bold headline pulls into sharp focus, then focus swings back. A cinematic focus pull.",
+    "duration": "5.5s loop"
+  },
+  {
+    "id": "follow-button",
+    "title": "Follow Button",
+    "category": "Interface",
+    "tags": [
+      "follow",
+      "subscribe",
+      "social",
+      "cta",
+      "like",
+      "profile"
+    ],
+    "description": "A cursor taps Follow on a profile card, the button flips to Following and hearts float up. A friendly call to action.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "strike-replace",
+    "title": "Strike & Replace",
+    "category": "Text",
+    "tags": [
+      "correction",
+      "mindset",
+      "versus",
+      "swap",
+      "word"
+    ],
+    "description": "One word gets struck through and lifts away while the better word springs in with an underline.",
+    "duration": "5.5s loop"
+  },
+  {
+    "id": "line-chart-draw",
+    "title": "Line Chart Draw",
+    "category": "Data",
+    "tags": [
+      "trend",
+      "growth",
+      "line",
+      "graph",
+      "analytics",
+      "dip"
+    ],
+    "description": "A smooth line draws through a dip and a recovery, the area fills in and a big percentage pops at the end.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "checklist-card",
+    "title": "Checklist Card",
+    "category": "Video",
+    "tags": [
+      "checklist",
+      "todo",
+      "steps",
+      "tips",
+      "talking head"
+    ],
+    "description": "A card slides up over the speaker and each item gets ticked, struck through and greyed out. Shown in a vertical 9:16 frame.",
+    "duration": "6.5s loop"
+  },
+  {
+    "id": "progress-ring-stat",
+    "title": "Progress Ring Stat",
+    "category": "Data",
+    "tags": [
+      "percent",
+      "ring",
+      "completion",
+      "gauge",
+      "kpi"
+    ],
+    "description": "A ring sweeps to 82% while the number counts up, then a trend badge pops in.",
+    "duration": "5s loop"
+  },
+  {
+    "id": "time-saved-clock",
+    "title": "Time Saved Clock",
+    "category": "Moments",
+    "tags": [
+      "clock",
+      "time",
+      "hours saved",
+      "productivity",
+      "speed"
+    ],
+    "description": "The hands spin fast around an analog clock face, then a bold hours-saved badge pops in.",
+    "duration": "5.5s loop"
+  },
+  {
+    "id": "skeleton-loading",
+    "title": "Skeleton Loading",
+    "category": "Interface",
+    "tags": [
+      "loading",
+      "placeholder",
+      "shimmer",
+      "content",
+      "app"
+    ],
+    "description": "Grey placeholder blocks shimmer, then the real content fades and slides in. Shows loading to loaded.",
+    "duration": "6s loop"
+  },
+  {
+    "id": "pricing-cards",
+    "title": "Pricing Cards",
+    "category": "Interface",
+    "tags": [
+      "pricing",
+      "plans",
+      "saas",
+      "tiers",
+      "popular"
+    ],
+    "description": "Three plans rise in one after another, then the middle plan lifts with a Popular badge.",
+    "duration": "6.5s loop"
+  },
+  {
+    "id": "testimonial-quote",
+    "title": "Testimonial Quote",
+    "category": "Text",
+    "tags": [
+      "review",
+      "quote",
+      "social proof",
+      "stars",
+      "customer"
+    ],
+    "description": "The quote reveals word by word, five stars fill in one at a time, then the author slides in.",
+    "duration": "7s loop"
+  },
+  {
+    "id": "kanban-drag",
+    "title": "Kanban Drag",
+    "category": "Interface",
+    "tags": [
+      "board",
+      "tasks",
+      "drag",
+      "project",
+      "cursor",
+      "trello"
+    ],
+    "description": "A cursor lifts a card out of To do and drops it into Done while the Done counter ticks up.",
+    "duration": "7s loop"
+  },
+  {
+    "id": "versus-split",
+    "title": "Versus Split",
+    "category": "Camera",
+    "tags": [
+      "compare",
+      "vs",
+      "before after",
+      "split",
+      "two sides"
+    ],
+    "description": "Two panels slide in from opposite sides, meet in the middle and a VS badge pops between them.",
+    "duration": "5.5s loop"
+  },
+  {
+    "id": "code-typing",
+    "title": "Code Typing",
+    "category": "AI",
+    "tags": [
+      "code",
+      "editor",
+      "developer",
+      "terminal",
+      "programming",
+      "agent"
+    ],
+    "description": "A dark editor window types out lines of code with syntax colours, then a Run pill pops in.",
+    "duration": "9s loop"
+  },
+  {
+    "id": "email-send",
+    "title": "Email Send",
+    "category": "Interface",
+    "tags": [
+      "email",
+      "send",
+      "mail",
+      "paper plane",
+      "compose"
+    ],
+    "description": "The Send button presses, the message folds away, a paper plane flies off and a sent pill pops in.",
+    "duration": "6.5s loop"
+  },
+  {
+    "id": "audio-waveform",
+    "title": "Audio Waveform",
+    "category": "Interface",
+    "tags": [
+      "podcast",
+      "music",
+      "player",
+      "audio",
+      "sound",
+      "waveform"
+    ],
+    "description": "A podcast player where the waveform bars bounce and a blue progress fill sweeps across.",
+    "duration": "continuous"
+  },
+  {
+    "id": "integration-orbit",
+    "title": "Integration Orbit",
+    "category": "Flow",
+    "tags": [
+      "integrations",
+      "apps",
+      "connect",
+      "hub",
+      "orbit",
+      "ecosystem"
+    ],
+    "description": "App icons pop in around a central hub, then slowly orbit it while staying upright. Shows everything connecting.",
+    "duration": "continuous"
+  },
+  {
+    "id": "text-scramble",
+    "title": "Text Scramble",
+    "category": "Text",
+    "tags": [
+      "decode",
+      "glitch",
+      "hacker",
+      "reveal",
+      "headline",
+      "matrix"
+    ],
+    "description": "Random characters flicker and lock in left to right until the headline is revealed.",
+    "duration": "4.4s loop"
+  },
+  {
+    "id": "marquee-ticker",
+    "title": "Marquee Ticker",
+    "category": "Text",
+    "tags": [
+      "ticker",
+      "scroll",
+      "tags",
+      "logos",
+      "infinite",
+      "banner"
+    ],
+    "description": "Three tilted rows of tag pills scroll endlessly in alternating directions. A lively background or social proof strip.",
+    "duration": "continuous"
+  }
+]
