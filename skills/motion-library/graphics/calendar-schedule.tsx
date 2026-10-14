@@ -30,7 +30,7 @@ export default function CalendarSchedule() {
       >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="rounded-[3cqw] border border-black/10 bg-white p-[2.2cqw] shadow-[0_2cqw_6cqw_rgba(0,0,0,0.10)]"
       >
         <div className="flex" style={{ width: `${COL * 5}cqw` }}>

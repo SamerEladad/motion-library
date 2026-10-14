@@ -8,14 +8,29 @@ Preview them. Click **Copy prompt**. Paste into Claude. Get the exact animation 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-orange)](#install)
 
-<img src="docs/preview.jpg" alt="The Motion Library dashboard" width="860" />
-
 </div>
 
 Claude can build motion graphics now, but starting from a blank prompt rarely gets you something that looks great.
 Motion Library gives you a dashboard of 50 hand-tuned animations. Every card plays live, and its **Copy prompt** button copies a prompt plus the full code, so Claude recreates exactly what you saw.
 
 Built by [samerflows](https://samerflows.com). Free to use, forever.
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/gifs/macos-folder-open.gif" width="420" alt="macOS Folder Open" /><br /><sub><b>macOS Folder Open</b></sub></td>
+    <td align="center"><img src="docs/gifs/camera-pan-zoom.gif" width="420" alt="Camera Pan and Zoom" /><br /><sub><b>Camera Pan &amp; Zoom</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/gifs/kinetic-text-reveal.gif" width="420" alt="Kinetic Text Reveal" /><br /><sub><b>Kinetic Text Reveal</b></sub></td>
+    <td align="center"><img src="docs/gifs/command-palette.gif" width="420" alt="Command Palette" /><br /><sub><b>Command Palette</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/gifs/caption-highlight.gif" width="420" alt="Caption Highlight" /><br /><sub><b>Caption Highlight</b> (vertical video)</sub></td>
+    <td align="center"><img src="docs/gifs/success-burst.gif" width="420" alt="Success Burst" /><br /><sub><b>Success Burst</b></sub></td>
+  </tr>
+</table>
+
+<sub>6 of the 50. Open the dashboard to see them all, live.</sub>
 
 ## Install
 

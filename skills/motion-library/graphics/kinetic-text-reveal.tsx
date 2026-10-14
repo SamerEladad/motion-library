@@ -31,7 +31,7 @@ export default function KineticTextReveal() {
     >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="flex flex-col items-center gap-[1cqw] text-[12cqw] font-extrabold leading-[1.05] tracking-tight text-[#111111]"
       >
         <div className="flex gap-[2.6cqw]">

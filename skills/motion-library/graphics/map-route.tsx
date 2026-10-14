@@ -32,7 +32,7 @@ export default function MapRoute() {
           viewBox="0 0 100 62.5"
           className="absolute inset-0 h-full w-full"
           fill="none"
-          initial={false}
+          initial={{ opacity: 1 }}
           animate={{ opacity: [1, 1, 0] }}
           transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
           aria-hidden="true"

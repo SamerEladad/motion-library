@@ -34,7 +34,7 @@ export default function MacosFolderOpen() {
     >
       <motion.div
         key={cycle}
-        initial={false}
+        initial={{ opacity: 1 }}
         animate={{ opacity: [1, 1, 0] }}
         transition={{ duration: CYCLE_MS / 1000, times: [0, 0.94, 1], ease: "linear" }}
         className="absolute inset-0"

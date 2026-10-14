@@ -31,7 +31,7 @@ export default function SuccessBurst() {
         className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-[#F2F2EE] [container-type:inline-size]"
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
-      <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative flex flex-col items-center gap-[3cqw]">
+      <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative flex flex-col items-center gap-[3cqw]">
         <div className="relative flex h-[18cqw] w-[18cqw] items-center justify-center">
           {PIECES.map((p, i) => (
             <motion.span

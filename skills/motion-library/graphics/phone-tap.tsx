@@ -28,7 +28,7 @@ export default function PhoneTap() {
       >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="relative h-[56cqw] w-[27cqw] rounded-[4.6cqw] bg-[#111111] p-[1cqw] shadow-[0_3cqw_7cqw_rgba(0,0,0,0.3)]"
       >
         <div className="relative h-full w-full overflow-hidden rounded-[3.7cqw] bg-white">

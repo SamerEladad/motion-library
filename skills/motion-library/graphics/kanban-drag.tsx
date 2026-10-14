@@ -33,7 +33,7 @@ export default function KanbanDrag() {
         className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-[#F2F2EE] [container-type:inline-size]"
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
-      <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative h-[34cqw] w-[66cqw]">
+      <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative h-[34cqw] w-[66cqw]">
         {cols.map((c, i) => (
           <div key={c} className="absolute top-0 h-full w-[20cqw] rounded-[1.8cqw] bg-black/5" style={{ left: `${i * 23}cqw` }}>
             <div className="flex items-center justify-between px-[1.8cqw] pt-[1.6cqw] text-[2.2cqw] font-bold text-[#6b7280]">

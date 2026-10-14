@@ -21,7 +21,7 @@ export default function TestimonialQuote() {
       >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="relative w-[62cqw] rounded-[3cqw] border border-black/10 bg-white p-[4cqw] shadow-[0_2cqw_6cqw_rgba(0,0,0,0.10)]"
       >
         <span className="absolute -top-[3cqw] left-[3.4cqw] flex h-[7cqw] w-[7cqw] items-center justify-center rounded-full bg-[#2563EB] text-[6cqw] font-extrabold leading-none text-white">“</span>

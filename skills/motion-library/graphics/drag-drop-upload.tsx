@@ -25,7 +25,7 @@ export default function DragDropUpload() {
         className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-[#F2F2EE] [container-type:inline-size]"
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
-      <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative h-[46cqw] w-[88cqw]">
+      <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative h-[46cqw] w-[88cqw]">
         {/* drop zone */}
         <motion.div
           className="absolute right-0 top-[2cqw] flex h-[38cqw] w-[44cqw] flex-col items-center justify-center rounded-[3cqw] border-[0.5cqw] border-dashed"

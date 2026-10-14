@@ -24,7 +24,7 @@ export default function PipCard() {
           className="relative h-[58cqw] w-[32.6cqw] overflow-hidden rounded-[2.4cqw] shadow-[0_2.4cqw_6cqw_rgba(0,0,0,0.25)]"
           style={{ background: "linear-gradient(180deg, #E7E5E4 0%, #A8A29E 100%)" }}
         >
-      <motion.div key={cycle} className="absolute inset-0" initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.96, 1], ease: "linear" }}>
+      <motion.div key={cycle} className="absolute inset-0" initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.96, 1], ease: "linear" }}>
         <div className="absolute inset-0 bg-[#F5F5F4]">
           <motion.div
             className="absolute inset-x-0 top-[4cqw] text-center text-[4.4cqw] font-extrabold tracking-tight text-[#111111]"

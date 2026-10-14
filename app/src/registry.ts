@@ -5,6 +5,7 @@ export type Graphic = {
   id: string;
   title: string;
   category: string;
+  group: string;
   tags: string[];
   description: string;
   duration: string;
@@ -26,13 +27,30 @@ const sources = import.meta.glob<string>(
 
 const byId = (id: string) => `../../skills/motion-library/graphics/${id}.tsx`;
 
+// A handful of filters keeps the dashboard simple; the detailed category stays searchable.
+const GROUPS: Record<string, string> = {
+  Text: "Text",
+  Data: "Data",
+  Maps: "Data",
+  Flow: "Data",
+  Interface: "Interface",
+  AI: "Interface",
+  Lists: "Interface",
+  Video: "Video",
+  Camera: "Video",
+  "3D": "Video",
+  Brand: "Video",
+  Moments: "Video",
+};
+
 export const graphics: Graphic[] = catalog.map((entry) => ({
   ...entry,
+  group: GROUPS[entry.category] ?? "Interface",
   Component: modules[byId(entry.id)].default,
   source: sources[byId(entry.id)],
 }));
 
-export const categories = ["All", ...Array.from(new Set(graphics.map((g) => g.category)))];
+export const categories = ["All", "Text", "Data", "Interface", "Video"];
 
 export function buildPrompt(g: Graphic) {
   return `Recreate this motion graphic exactly in my project.

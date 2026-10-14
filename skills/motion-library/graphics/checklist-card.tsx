@@ -28,7 +28,7 @@ export default function ChecklistCard() {
             <circle cx="50" cy="60" r="19" fill="#1C1917" />
             <path d="M10 160 C10 112 28 94 50 94 C72 94 90 112 90 160z" fill="#1C1917" />
           </svg>
-      <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0">
+      <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0">
         <motion.div
           className="absolute inset-x-[2.4cqw] bottom-[5cqw] rounded-[2.2cqw] bg-white p-[2.2cqw] shadow-[0_1.6cqw_4cqw_rgba(0,0,0,0.3)]"
           initial={{ y: "34cqw" }}

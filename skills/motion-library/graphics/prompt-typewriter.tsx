@@ -46,7 +46,7 @@ export default function PromptTypewriter() {
     >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="flex w-[80cqw] flex-col gap-[2.4cqw]"
       >
         <div className="rounded-[2cqw] border border-black/10 bg-white p-[2.6cqw] shadow-[0_2cqw_5cqw_rgba(0,0,0,0.08)]">

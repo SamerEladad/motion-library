@@ -27,7 +27,7 @@ export default function IconListCascade() {
     >
       <motion.div
         key={cycle}
-        initial={false}
+        initial={{ opacity: 1 }}
         animate={{ opacity: [1, 1, 0] }}
         transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="flex w-[68cqw] flex-col gap-[1.3cqw]"

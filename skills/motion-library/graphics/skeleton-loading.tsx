@@ -40,7 +40,7 @@ export default function SkeletonLoading() {
       >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="w-[46cqw] rounded-[2.6cqw] border border-black/10 bg-white p-[2.6cqw] shadow-[0_2cqw_6cqw_rgba(0,0,0,0.10)]"
       >
         <AnimatePresence initial={false} mode="wait">

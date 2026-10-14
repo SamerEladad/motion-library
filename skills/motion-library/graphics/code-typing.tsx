@@ -55,7 +55,7 @@ export default function CodeTyping() {
       >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="relative w-[64cqw] overflow-hidden rounded-[2.4cqw] bg-[#0F172A] shadow-[0_3cqw_8cqw_rgba(15,23,42,0.45)]"
       >
         <div className="flex items-center gap-[1.1cqw] border-b border-white/10 px-[2cqw] py-[1.6cqw]">

@@ -53,7 +53,7 @@ export function Card({ graphic, prompt, index }: { graphic: Graphic; prompt: () 
       <div ref={stage} className="relative aspect-[16/10] border-b border-line bg-[#F2F2EE]">
         {visible && <Component />}
         <span className="absolute left-3 top-3 rounded-full border border-dashed border-white/30 bg-canvas/85 px-2.5 py-1 font-mono text-[11px] text-white backdrop-blur">
-          {graphic.category.toUpperCase()}
+          {graphic.group.toUpperCase()}
         </span>
       </div>
       <div className="flex flex-1 flex-col gap-4 p-5">

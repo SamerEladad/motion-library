@@ -40,7 +40,7 @@ export default function PriceTagSwing() {
       <motion.div
         key={cycle}
         className="absolute inset-0"
-        initial={false}
+        initial={{ opacity: 1 }}
         animate={{ opacity: [1, 1, 0] }}
         transition={{ duration: CYCLE_MS / 1000, times: [0, 0.93, 1], ease: "linear" }}
       >

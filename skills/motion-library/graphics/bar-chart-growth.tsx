@@ -30,7 +30,7 @@ export default function BarChartGrowth() {
     >
       <motion.div
         key={cycle}
-        initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
+        initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }}
         className="w-[72cqw] rounded-[2.4cqw] border border-black/10 bg-white px-[3.4cqw] pb-[2.6cqw] pt-[3cqw] shadow-[0_2cqw_5cqw_rgba(0,0,0,0.10)]"
       >
         <div className="text-[2.8cqw] font-semibold text-[#111111]">Weekly sales</div>

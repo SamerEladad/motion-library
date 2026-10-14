@@ -18,7 +18,7 @@ export default function EmailSend() {
         className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-[#F2F2EE] [container-type:inline-size]"
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
-      <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative flex items-center justify-center">
+      <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="relative flex items-center justify-center">
         <motion.div
           className="w-[52cqw] rounded-[2.6cqw] border border-black/10 bg-white p-[2.8cqw] shadow-[0_2cqw_6cqw_rgba(0,0,0,0.12)]"
           animate={{ scale: [1, 1, 0.6, 0.6], opacity: [1, 1, 0, 0], y: ["0cqw", "0cqw", "3cqw", "3cqw"] }}

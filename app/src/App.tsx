@@ -18,8 +18,8 @@ export default function App() {
     const q = query.trim().toLowerCase();
     return graphics.filter(
       (g) =>
-        (category === "All" || g.category === category) &&
-        (!q || [g.title, g.description, g.category, ...g.tags].join(" ").toLowerCase().includes(q)),
+        (category === "All" || g.group === category) &&
+        (!q || [g.title, g.description, g.category, g.group, ...g.tags].join(" ").toLowerCase().includes(q)),
     );
   }, [category, query]);
 
@@ -48,25 +48,6 @@ export default function App() {
             Pick a motion graphic, hit copy, paste it into Claude. You get the exact animation, in your project, in one
             go.
           </p>
-          <div className="flex flex-wrap items-center gap-3">
-            <a
-              href={LINKS.newsletter}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex h-11 items-center gap-2 rounded-[10px] border border-ruby bg-ruby px-5 text-sm font-medium text-white transition-colors duration-150 hover:border-ruby-lit hover:bg-ruby-lit"
-            >
-              Get my setup
-              <span aria-hidden="true">→</span>
-            </a>
-            <a
-              href={LINKS.instagram}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex h-11 items-center rounded-[10px] border border-line bg-card px-5 text-sm font-medium text-white transition-colors duration-150 hover:border-dash hover:bg-white/5"
-            >
-              Follow on Instagram
-            </a>
-          </div>
         </header>
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
@@ -120,24 +101,46 @@ export default function App() {
           <p className="py-16 text-center font-mono text-sm text-muted">[ NOTHING MATCHES “{query}” ]</p>
         )}
 
-        <footer className="flex flex-col items-center gap-6 border-t border-line pt-8">
-          <div className="flex w-full flex-wrap items-center justify-between gap-3 font-mono text-xs text-dim">
+        <footer className="flex flex-col items-center gap-8 border-t border-line pt-10 text-center">
+          <div className="flex flex-col items-center gap-3">
+            <p className="font-display text-2xl font-bold uppercase tracking-[1.5px]">
+              Want my{" "}
+              <span className="font-serif font-normal italic tracking-normal text-ruby-lit [text-shadow:var(--shadow-glow-ruby)]">
+                full setup?
+              </span>
+            </p>
+            <p className="max-w-md text-[15px] leading-relaxed text-muted">
+              I share the workflows, prompts and systems I use to save time and make money with AI.
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <a
+              href={LINKS.newsletter}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-11 items-center gap-2 rounded-[10px] border border-ruby bg-ruby px-5 text-sm font-medium text-white transition-colors duration-150 hover:border-ruby-lit hover:bg-ruby-lit"
+            >
+              Get my setup
+              <span aria-hidden="true">→</span>
+            </a>
+            <a
+              href={LINKS.instagram}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-11 items-center rounded-[10px] border border-line bg-card px-5 text-sm font-medium text-white transition-colors duration-150 hover:border-dash hover:bg-white/5"
+            >
+              Follow on Instagram
+            </a>
+          </div>
+          <span className="font-['Reenie_Beanie'] text-[38px] leading-none text-white/50">@samerflows</span>
+          <div className="flex w-full flex-wrap items-center justify-between gap-3 border-t border-line pt-5 font-mono text-xs text-dim">
             <span>
               {visible.length} / {graphics.length} MOTION GRAPHICS
             </span>
-            <span className="flex items-center gap-5">
-              <a href={LINKS.newsletter} target="_blank" rel="noreferrer" className="transition-colors hover:text-white">
-                SAMERFLOWS.COM
-              </a>
-              <a href={LINKS.instagram} target="_blank" rel="noreferrer" className="transition-colors hover:text-white">
-                INSTAGRAM
-              </a>
-              <a href={LINKS.repo} target="_blank" rel="noreferrer" className="transition-colors hover:text-white">
-                GITHUB
-              </a>
-            </span>
+            <a href={LINKS.repo} target="_blank" rel="noreferrer" className="transition-colors hover:text-white">
+              GITHUB · MIT
+            </a>
           </div>
-          <span className="font-['Reenie_Beanie'] text-[38px] leading-none text-white/50">@samerflows</span>
         </footer>
       </main>
     </div>

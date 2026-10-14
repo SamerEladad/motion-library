@@ -20,7 +20,7 @@ export default function StrikeReplace() {
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
         <div className="relative h-[58cqw] w-[32.6cqw] overflow-hidden rounded-[2.4cqw] bg-[#FAFAF9] shadow-[0_2.4cqw_6cqw_rgba(0,0,0,0.2)]">
-          <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0 flex flex-col items-center justify-center">
+          <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0 flex flex-col items-center justify-center">
             <span className="absolute top-[7cqw] text-[2.4cqw] font-bold tracking-[0.25em] text-[#9ca3af]">MINDSET</span>
             <div className="relative h-[10cqw] w-full">
               <motion.div

@@ -29,7 +29,7 @@ export default function ProgressRingStat() {
         className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-[#F2F2EE] [container-type:inline-size]"
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
-      <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="flex flex-col items-center gap-[2.4cqw]">
+      <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="flex flex-col items-center gap-[2.4cqw]">
         <div className="relative h-[38cqw] w-[38cqw]">
           <svg viewBox="0 0 100 100" className="h-full w-full -rotate-90" fill="none" aria-hidden="true">
             <circle cx="50" cy="50" r="42" stroke="#E4E4DE" strokeWidth="9" />

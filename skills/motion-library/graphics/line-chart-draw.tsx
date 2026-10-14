@@ -31,7 +31,7 @@ export default function LineChartDraw() {
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
         <div className="relative h-[58cqw] w-[32.6cqw] overflow-hidden rounded-[2.4cqw] bg-white shadow-[0_2.4cqw_6cqw_rgba(0,0,0,0.2)]">
-          <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0 px-[2.2cqw] pt-[4cqw]">
+          <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0 px-[2.2cqw] pt-[4cqw]">
             <div className="text-[2.4cqw] font-semibold text-[#6b7280]">Weekly views</div>
             <motion.div
               className="text-[8cqw] font-extrabold leading-none tracking-tight text-[#111111]"

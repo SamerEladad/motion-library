@@ -42,7 +42,7 @@ export default function CommandPalette() {
         className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-[#F2F2EE] [container-type:inline-size]"
         style={{ backgroundImage: "radial-gradient(#d6d6cf 1.2px, transparent 1.2px)", backgroundSize: "20px 20px" }}
       >
-      <motion.div key={cycle} initial={false} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0 flex items-center justify-center">
+      <motion.div key={cycle} initial={{ opacity: 1 }} animate={{ opacity: [1, 1, 0] }} transition={{ duration: CYCLE_MS / 1000, times: [0, 0.92, 1], ease: "linear" }} className="absolute inset-0 flex items-center justify-center">
         <div className="absolute inset-0 flex flex-col gap-[2cqw] p-[6cqw] opacity-60">
           <div className="h-[3cqw] w-[30cqw] rounded-full bg-black/10" />
           <div className="h-[2cqw] w-[60cqw] rounded-full bg-black/5" />
